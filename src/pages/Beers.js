@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { useParams, Link } from "react-router-dom";
 
 import Header from "../components/Header";
 

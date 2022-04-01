@@ -22,7 +22,11 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="card" style={{ width: "23rem" }}>
+      <div
+        className="card"
+        onClick={() => navigate("/beer/random-beer")}
+        style={{ width: "23rem" }}
+      >
         <img
           src="../assets/random-beer.png"
           className="card-img-top"
